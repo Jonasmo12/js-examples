@@ -13,3 +13,13 @@ class Vehicle {
 
     
 }
+
+function leastNumber(firstNumber, secondNumber) {
+    if (firstNumber > secondNumber) { 
+        return secondNumber;
+    } else if (secondNumber > firstNumber) {
+        return firstNumber;
+    }  else {
+        return "they are equal"
+    }   
+}
